@@ -9,7 +9,7 @@ class Solution:
         output: list[int] = []
         
         def traverse(root: TreeNode | None):
-            if root == None:
+            if not root:
                 return None
             
             traverse(root.left)
