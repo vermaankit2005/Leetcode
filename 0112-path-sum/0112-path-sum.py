@@ -28,7 +28,7 @@ class Solution:
             if isSolutionOnRight:
                 return True
 
-            return False
+            return isSolutionOnLeft or isSolutionOnRight
 
         return traverse(root , 0)
 
