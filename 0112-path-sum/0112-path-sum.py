@@ -22,7 +22,11 @@ class Solution:
                     return False
 
             isSolutionOnLeft = traverse(node.left, current_sum)
+            if isSolutionOnLeft:
+                return True
             isSolutionOnRight = traverse(node.right, current_sum)
+            if isSolutionOnRight:
+                return True
 
             return isSolutionOnLeft or isSolutionOnRight
 
