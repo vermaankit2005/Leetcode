@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0078-subsets](https://github.com/vermaankit2005/Leetcode/tree/master/0078-subsets) |
 | [0198-house-robber](https://github.com/vermaankit2005/Leetcode/tree/master/0198-house-robber) |
 | [0217-contains-duplicate](https://github.com/vermaankit2005/Leetcode/tree/master/0217-contains-duplicate) |
 ## Hash Table
@@ -65,4 +66,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/vermaankit2005/Leetcode/tree/master/0217-contains-duplicate) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/vermaankit2005/Leetcode/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/vermaankit2005/Leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
