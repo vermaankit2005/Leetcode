@@ -18,7 +18,6 @@ class Solution:
                 if current_sum == targetSum: 
                     return True
                 else:
-                    current_sum -= node.val
                     return False
 
             isSolutionOnLeft = traverse(node.left, current_sum)
