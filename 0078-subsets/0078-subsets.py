@@ -3,7 +3,6 @@ class Solution:
 
         ans = []
         def traverse(i: int, current_state: list[int]):
-
             if i > len(nums) - 1:
                 ans.append(current_state.copy())
                 return
