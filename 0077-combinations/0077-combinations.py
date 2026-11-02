@@ -9,13 +9,11 @@ class Solution:
                 result.append(current_path.copy())
                 return
 
-            for i in range(i, n):
-                current_path.append(i+1)
-                traverse(i+1, current_path, result)
-
+            for j in range(i, n):
+                current_path.append(j + 1)
+                traverse(j + 1, current_path, result)
                 current_path.pop()
 
-        
         traverse(0, current_path, result)
         return result
 
