@@ -2,6 +2,7 @@ class Solution:
     def permuteUnique(self, nums: list[int]) -> list[list[int]]:
         ans = []
         used = [False] * len(nums)
+        # Need to be improved, not optimal solution !!!
         seen = set()
 
         def traverse(i: int, current_state: list[int]):
