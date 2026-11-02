@@ -17,8 +17,7 @@ class Solution:
         def traverse(i : int, current_path: list[str], result: list[list[str]]):
 
             if len(current_path) == len(digits):
-                copy = current_path.copy()
-                result.append("".join(copy))
+                result.append("".join(current_path))
                 return
             
             alphabets = phone_map[digits[i]]
