@@ -8,9 +8,7 @@ class Solution:
         current_sum = nums[0]
 
         for i in range(1 , len(nums)):
-            current_sum += nums[i]
-            current_sum = max(nums[i], current_sum)
-
+            current_sum = max(nums[i], current_sum + nums[i])
             max_so_far = max(max_so_far , current_sum)
             
         return max_so_far
