@@ -2,7 +2,7 @@ class Solution:
     def removeDuplicates(self, nums: list[int]) -> int:
 
         left = 0
-        right = 1
+        right = 0
         
         while right < len(nums):
             if nums[right] == nums[left]:
