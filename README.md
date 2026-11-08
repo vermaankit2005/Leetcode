@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/vermaankit2005/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0112-path-sum](https://github.com/vermaankit2005/Leetcode/tree/master/0112-path-sum) |
+| [0200-number-of-islands](https://github.com/vermaankit2005/Leetcode/tree/master/0200-number-of-islands) |
 ## Binary Tree
 |  |
 | ------- |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/vermaankit2005/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0112-path-sum](https://github.com/vermaankit2005/Leetcode/tree/master/0112-path-sum) |
+| [0200-number-of-islands](https://github.com/vermaankit2005/Leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/vermaankit2005/Leetcode/tree/master/0322-coin-change) |
 ## Array
 |  |
@@ -74,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/vermaankit2005/Leetcode/tree/master/0090-subsets-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/vermaankit2005/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0198-house-robber](https://github.com/vermaankit2005/Leetcode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/vermaankit2005/Leetcode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/vermaankit2005/Leetcode/tree/master/0217-contains-duplicate) |
 | [0322-coin-change](https://github.com/vermaankit2005/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/vermaankit2005/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -154,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/vermaankit2005/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/vermaankit2005/Leetcode/tree/master/0200-number-of-islands) |
 ## Two Pointers
 |  |
 | ------- |
@@ -163,4 +167,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1929-concatenation-of-array](https://github.com/vermaankit2005/Leetcode/tree/master/1929-concatenation-of-array) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/vermaankit2005/Leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
