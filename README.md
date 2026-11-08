@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/vermaankit2005/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0112-path-sum](https://github.com/vermaankit2005/Leetcode/tree/master/0112-path-sum) |
 | [0200-number-of-islands](https://github.com/vermaankit2005/Leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/vermaankit2005/Leetcode/tree/master/0695-max-area-of-island) |
 ## Binary Tree
 |  |
 | ------- |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/vermaankit2005/Leetcode/tree/master/0112-path-sum) |
 | [0200-number-of-islands](https://github.com/vermaankit2005/Leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/vermaankit2005/Leetcode/tree/master/0322-coin-change) |
+| [0695-max-area-of-island](https://github.com/vermaankit2005/Leetcode/tree/master/0695-max-area-of-island) |
 ## Array
 |  |
 | ------- |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/vermaankit2005/Leetcode/tree/master/0217-contains-duplicate) |
 | [0322-coin-change](https://github.com/vermaankit2005/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/vermaankit2005/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0695-max-area-of-island](https://github.com/vermaankit2005/Leetcode/tree/master/0695-max-area-of-island) |
 | [0746-min-cost-climbing-stairs](https://github.com/vermaankit2005/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [1046-last-stone-weight](https://github.com/vermaankit2005/Leetcode/tree/master/1046-last-stone-weight) |
 | [1470-shuffle-the-array](https://github.com/vermaankit2005/Leetcode/tree/master/1470-shuffle-the-array) |
@@ -158,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/vermaankit2005/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/vermaankit2005/Leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/vermaankit2005/Leetcode/tree/master/0695-max-area-of-island) |
 ## Two Pointers
 |  |
 | ------- |
@@ -171,4 +175,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/vermaankit2005/Leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/vermaankit2005/Leetcode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
