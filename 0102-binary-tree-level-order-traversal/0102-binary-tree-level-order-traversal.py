@@ -16,9 +16,8 @@ class Solution:
         result = []
 
         while que:
-            size = len(que)
             items = []
-            for i in range(size):
+            for i in range(len(que)):
                 item = que.popleft()
                 items.append(item.val)
                 if item.left:
