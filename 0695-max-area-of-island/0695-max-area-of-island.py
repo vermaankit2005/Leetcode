@@ -2,16 +2,13 @@ class Solution:
     def maxAreaOfIsland(self, grid: list[list[int]]) -> int:
 
         visited = set()
-        max_area = -1
+        max_area = 0
 
         for r in range(len(grid)):
             for c in range(len(grid[0])):
                 
                 if grid[r][c] != 0 and (r,c) not in visited:
                     max_area = max(max_area, self.dfs(r, c, visited, grid))
-
-        if max_area == -1:
-            return 0
 
         return max_area
 
