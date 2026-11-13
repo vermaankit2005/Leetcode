@@ -20,7 +20,7 @@ class Solution:
             if (i, total) in mem:
                 return mem[(i, total)]
             
-            mem[(i, total)] = dfs(i+1, total) or dfs(i+1, nums[i] + total)
+            mem[(i, total)] = dfs(i+1, total + nums[i]) or dfs(i+1, total)
             return mem[(i, total)]
         
         return dfs(0, 0)
