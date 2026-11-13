@@ -11,13 +11,13 @@ class Solution:
 
             zeros, ones = self.find_zero_ones(strs[i])
 
-            # Exclude current string
-            skip = dfs(i + 1, size_0, size_1)
-
             # Include current string, only if it fits
             take = 0
             if size_0 + zeros <= m and size_1 + ones <= n:
                 take = 1 + dfs(i + 1, size_0 + zeros, size_1 + ones)
+
+            # Exclude current string
+            skip = dfs(i + 1, size_0, size_1)
 
             mem[(i , size_0 , size_1)] =  max(take, skip)
             return  mem[(i , size_0 , size_1)]
