@@ -1,14 +1,12 @@
 class Solution:
     def canPartition(self, nums: list[int]) -> bool:
         
-        sum = 0 
-        for num in nums:
-            sum += num
+        summ = sum(nums)
         
-        if sum % 2 != 0:
+        if summ % 2 != 0:
             return False
         
-        target = sum // 2
+        target = summ // 2
 
         mem = [[None] * target for _ in range(len(nums))]
 
