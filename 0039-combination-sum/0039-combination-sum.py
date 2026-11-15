@@ -1,30 +1,26 @@
 class Solution:
-    def combinationSum(self, candidates: list[int], target: int) -> list[list[int]]:
-        ans = []
+    def combinationSum(self, nums: list[int], target: int) -> list[list[int]]:
+        result = []
+        def dfs(i: int, current_state: List[int], sum: int) -> None:
 
-        def traverse(index: int, current_state: list[int], current_sum: int):
-            if current_sum == target:
-                ans.append(current_state.copy())
+            if i == len(nums):
                 return
-
-            if current_sum > target:
+            
+            if sum == target:
+                result.append(current_state.copy())
                 return
+            
+            if sum > target:
+                return
+            
+            dfs(i+1, current_state, sum)
 
-            for i in range(index, len(candidates)):
+            current_state.append(nums[i])
+            sum += nums[i]
+            dfs(i, current_state, sum)
 
-                current_sum += candidates[i]
-                current_state.append(candidates[i])
+            sum +- nums[i]
+            current_state.pop()
 
-                traverse(i, current_state, current_sum)
-
-                current_sum -= candidates[i]
-                current_state.pop()
-
-        traverse(0, [], 0)
-        return ans
-
-
-
-
-
-        
+        dfs(0, [], 0)
+        return result
