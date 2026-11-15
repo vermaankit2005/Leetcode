@@ -1,27 +1,21 @@
 class Solution:
     def subsets(self, nums: list[int]) -> list[list[int]]:
         result = []
-        current_state = []
-
-        def traverse(i: int, current_state: list[int], result: list[list[int]]):
+        def dfs(i: index, current_state: list[int]):
 
             if i == len(nums):
                 result.append(current_state.copy())
                 return
             
             current_state.append(nums[i])
-            traverse(i+1, current_state, result)
+            dfs(i+1, current_state)
 
             current_state.pop()
-            traverse(i+1, current_state, result)
+            dfs(i+1, current_state)
         
-        traverse(0, current_state, result)
+        dfs(0 , [])
+
         return result
-
-
-
-
-        
-
+            
 
         
