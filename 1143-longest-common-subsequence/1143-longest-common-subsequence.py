@@ -9,13 +9,13 @@ class Solution:
             if (i, j) in mem:
                 return mem[(i, j)]
 
-            if text1[i] == text2[j]:
-                mem[(i, j)] = 1 + dfs(i+1, j+1)
-                return mem[(i, j)]
-            else:
+            if text1[i] != text2[j]:
                 increment_text1_pointer = dfs(i+1, j)
                 increment_text2_pointer = dfs(i, j+1)
                 mem[(i, j)] = max(increment_text1_pointer, increment_text2_pointer)
+                return mem[(i, j)]
+            else:
+                mem[(i, j)] = 1 + dfs(i+1, j+1)
                 return mem[(i, j)]
 
         return dfs(0, 0)
