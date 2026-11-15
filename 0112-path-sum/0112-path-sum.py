@@ -6,50 +6,31 @@
 #         self.right = right
 class Solution:
     def hasPathSum(self, root: TreeNode | None, targetSum: int) -> bool:
-        
-        def traverse(node : TreeNode, current_sum: int):
 
-            if not node: 
+        def dfs(node: TreeNode, sum: int) -> bool:
+
+            if node is None:
                 return False
+            
+            sum += node.val
 
-            current_sum += node.val
-
-            if not node.left and not node.right:
-                if current_sum == targetSum: 
+            if node.left is None and node.right is None:
+                if sum == targetSum:
                     return True
                 else:
+                    sum -= node.val
                     return False
-
-            isSolutionOnLeft = traverse(node.left, current_sum)
-            if isSolutionOnLeft:
-                return True
-            isSolutionOnRight = traverse(node.right, current_sum)
-            if isSolutionOnRight:
+            
+            if dfs(node.left, sum):
                 return True
 
-            return isSolutionOnLeft or isSolutionOnRight
+            if dfs(node.right, sum):
+                return True
 
-        return traverse(root , 0)
-
+            return False
             
-            
-        
-        
-        
-        
-
-        
-
-        
-
-            
+        return dfs(root, 0)
             
             
 
-            
-            
-            
-            
-            
-
-        
+    
