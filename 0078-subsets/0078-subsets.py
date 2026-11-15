@@ -7,11 +7,12 @@ class Solution:
                 result.append(current_state.copy())
                 return
             
+            dfs(i+1, current_state)
+
             current_state.append(nums[i])
             dfs(i+1, current_state)
 
             current_state.pop()
-            dfs(i+1, current_state)
         
         dfs(0 , [])
 
