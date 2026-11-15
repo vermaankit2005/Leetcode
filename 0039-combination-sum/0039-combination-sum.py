@@ -1,25 +1,25 @@
 class Solution:
     def combinationSum(self, nums: list[int], target: int) -> list[list[int]]:
         result = []
-        def dfs(i: int, current_state: List[int], sum: int) -> None:
+        def dfs(i: int, current_state: List[int], total: int) -> None:
 
             if i == len(nums):
                 return
             
-            if sum == target:
+            if total == target:
                 result.append(current_state.copy())
                 return
             
-            if sum > target:
+            if total > target:
                 return
-            
-            dfs(i+1, current_state, sum)
+
+            dfs(i+1, current_state, total)
 
             current_state.append(nums[i])
-            sum += nums[i]
-            dfs(i, current_state, sum)
+            total += nums[i]
+            dfs(i, current_state, total)
 
-            sum +- nums[i]
+            total -= nums[i]
             current_state.pop()
 
         dfs(0, [], 0)
