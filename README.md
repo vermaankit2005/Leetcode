@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/vermaankit2005/Leetcode/tree/master/0509-fibonacci-number) |
 | [0518-coin-change-ii](https://github.com/vermaankit2005/Leetcode/tree/master/0518-coin-change-ii) |
 | [0746-min-cost-climbing-stairs](https://github.com/vermaankit2005/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
+| [1143-longest-common-subsequence](https://github.com/vermaankit2005/Leetcode/tree/master/1143-longest-common-subsequence) |
 ## Memoization
 |  |
 | ------- |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/vermaankit2005/Leetcode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/vermaankit2005/Leetcode/tree/master/0242-valid-anagram) |
 | [0474-ones-and-zeroes](https://github.com/vermaankit2005/Leetcode/tree/master/0474-ones-and-zeroes) |
+| [1143-longest-common-subsequence](https://github.com/vermaankit2005/Leetcode/tree/master/1143-longest-common-subsequence) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -209,4 +211,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/vermaankit2005/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/vermaankit2005/Leetcode/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/vermaankit2005/Leetcode/tree/master/0494-target-sum) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/vermaankit2005/Leetcode/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
