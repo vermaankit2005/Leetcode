@@ -3,15 +3,13 @@ class Solution:
         result = []
         def dfs(i: int, current_state: List[int], total: int) -> None:
 
-            if i == len(nums):
+            if i == len(nums) or total > target:
                 return
             
             if total == target:
                 result.append(current_state.copy())
                 return
             
-            if total > target:
-                return
 
             dfs(i+1, current_state, total)
 
