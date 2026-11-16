@@ -13,8 +13,9 @@ class Solution:
                 if j in current_state:
                     continue
                 current_state.append(j)
-                dfs(i+1, current_state)
+                dfs(j, current_state)
                 current_state.pop()
+            
 
         dfs(0, [])
         return result
