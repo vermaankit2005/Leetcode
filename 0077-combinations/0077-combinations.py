@@ -3,18 +3,27 @@ class Solution:
         
         current_path = []
         result = []
+        
+        nums = []
+        for i in range(1, n+1):
+            nums.append(i)
 
-        def traverse(i: int, current_path: list[int], result: list[list[int]]):
+        def traverse(i: int, current_path: list[int]):
+            
             if len(current_path) == k:
                 result.append(current_path.copy())
                 return
+            
+            if i >= len(nums):
+                return
 
-            for j in range(i, n):
-                current_path.append(j + 1)
-                traverse(j + 1, current_path, result)
-                current_path.pop()
+            traverse(i+1, current_path)
 
-        traverse(0, current_path, result)
+            current_path.append(nums[i])
+            traverse(i+1, current_path)
+            current_path.pop()
+
+        traverse(0, current_path)
         return result
 
             
