@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/vermaankit2005/Leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/vermaankit2005/Leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/vermaankit2005/Leetcode/tree/master/0695-max-area-of-island) |
+| [0743-network-delay-time](https://github.com/vermaankit2005/Leetcode/tree/master/0743-network-delay-time) |
 ## Binary Tree
 |  |
 | ------- |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/vermaankit2005/Leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/vermaankit2005/Leetcode/tree/master/0322-coin-change) |
 | [0695-max-area-of-island](https://github.com/vermaankit2005/Leetcode/tree/master/0695-max-area-of-island) |
+| [0743-network-delay-time](https://github.com/vermaankit2005/Leetcode/tree/master/0743-network-delay-time) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/vermaankit2005/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Array
 |  |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/vermaankit2005/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0743-network-delay-time](https://github.com/vermaankit2005/Leetcode/tree/master/0743-network-delay-time) |
 | [1046-last-stone-weight](https://github.com/vermaankit2005/Leetcode/tree/master/1046-last-stone-weight) |
 ## Bucket Sort
 |  |
@@ -218,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/vermaankit2005/Leetcode/tree/master/0133-clone-graph) |
+| [0743-network-delay-time](https://github.com/vermaankit2005/Leetcode/tree/master/0743-network-delay-time) |
 ## 0-1 Knapsack
 |  |
 | ------- |
@@ -248,4 +252,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vermaankit2005/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Shortest Path
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/vermaankit2005/Leetcode/tree/master/0743-network-delay-time) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/vermaankit2005/Leetcode/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
