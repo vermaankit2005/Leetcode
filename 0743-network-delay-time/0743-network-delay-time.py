@@ -15,7 +15,7 @@ class Solution:
         
         heapq.heappush(heap, (0, k))
 
-        while heap:
+        while heap and len(shortest_distance) < n:
             cnw, cn = heapq.heappop(heap)
 
             # Shortest path already found
