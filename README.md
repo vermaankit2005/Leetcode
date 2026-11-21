@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/vermaankit2005/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/vermaankit2005/Leetcode/tree/master/0518-coin-change-ii) |
 | [0695-max-area-of-island](https://github.com/vermaankit2005/Leetcode/tree/master/0695-max-area-of-island) |
+| [0704-binary-search](https://github.com/vermaankit2005/Leetcode/tree/master/0704-binary-search) |
 | [0746-min-cost-climbing-stairs](https://github.com/vermaankit2005/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [1046-last-stone-weight](https://github.com/vermaankit2005/Leetcode/tree/master/1046-last-stone-weight) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/vermaankit2005/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -286,4 +287,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1462-course-schedule-iv](https://github.com/vermaankit2005/Leetcode/tree/master/1462-course-schedule-iv) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/vermaankit2005/Leetcode/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
