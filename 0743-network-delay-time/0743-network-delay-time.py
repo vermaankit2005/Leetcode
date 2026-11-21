@@ -1,39 +1,39 @@
 import heapq
 class Solution:
     def networkDelayTime(self, times: list[list[int]], n: int, k: int) -> int:
-        adj = {}
 
+        # init adj list
+        adj = {}
         for i in range(1, n+1):
             adj[i] = []
         
-        for src, des, wt in times:
-            adj[src].append((des, wt))
+        for s, d, w in times:
+            adj[s].append((d, w))
         
-        max_distance = float('-inf')
-        shortest_distance = {}
         heap = []
-        
+        shortest_dst = {}
+
         heapq.heappush(heap, (0, k))
+        maximum_dst = -1
 
-        while heap and len(shortest_distance) < n:
-            cnw, cn = heapq.heappop(heap)
-
-            # Shortest path already found
-            # Discard the edge
-            if cn in shortest_distance:
+        while heap:
+            cur_wt, cur_node = heapq.heappop(heap)
+            if cur_node in shortest_dst:
                 continue
+            
+            shortest_dst[cur_node] = cur_wt
+            maximum_dst = max(maximum_dst, cur_wt)
 
-            shortest_distance[cn] = cnw
-            max_distance = max(max_distance, cnw)
+            for nbr_node , nbr_wt in adj[cur_node]:
+                if nbr_node in shortest_dst:
+                    continue
+                heapq.heappush(heap, (cur_wt + nbr_wt, nbr_node))
+
+        if len(shortest_dst) < n:
+            return -1
+
+        return maximum_dst
             
 
-            # Checking all the neigbors of the current node (cn)
-            for des, wt in adj[cn]:
-                if des in shortest_distance:
-                    continue
-                heapq.heappush(heap, (cnw + wt, des))
         
-        if len(shortest_distance) != n:
-            return -1
         
-        return max_distance
