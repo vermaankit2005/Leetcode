@@ -7,18 +7,14 @@ class Solution:
 
         for right in range(len(arr)):
 
-            win_sum += arr[right]
-            
             if (right - left) + 1 > k:
                 win_sum -= arr[left]
                 left += 1
+
+            win_sum += arr[right]
 
             if (right - left) + 1 == k:
                 if win_sum // k >= threshold:
                     count += 1
         
         return count
-
-
-
-        
