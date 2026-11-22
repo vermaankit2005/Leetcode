@@ -6,12 +6,12 @@ class Solution:
         ol_max = 1
         cur_count = 1
 
-        expecting = -2
+        expecting = 0
         
         for i in range(1, len(arr)):
             
             # no trend set
-            if expecting == -2:
+            if expecting == 0:
                 if arr[i] < arr[i-1]:
                     expecting = 1
                     cur_count = 2
@@ -19,7 +19,7 @@ class Solution:
                     expecting = -1
                     cur_count = 2
                 else:
-                    expecting = -2 
+                    expecting = 0 
                     cur_count = 1
             # expecting upwards trend
             elif expecting == 1:
@@ -30,7 +30,7 @@ class Solution:
                     expecting = 1
                     cur_count = 2
                 else:
-                    expecting = -2
+                    expecting = 0
                     cur_count = 1
             # expecting downwards trend
             elif expecting == -1:
@@ -41,16 +41,9 @@ class Solution:
                     expecting = -1 
                     cur_count = 2
                 else:
-                    expecting = -2 
+                    expecting = 0
                     cur_count = 1
 
             ol_max = max(ol_max, cur_count)
 
         return ol_max
-
-
-
-
-
-        
-        
