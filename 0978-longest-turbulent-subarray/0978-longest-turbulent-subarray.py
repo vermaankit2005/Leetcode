@@ -6,6 +6,9 @@ class Solution:
         ol_max = 1
         cur_count = 1
 
+        # 0 = No expectation
+        # 1 = Expecting UP 
+        # 2 = Expecting Down
         expecting = 0
         
         for i in range(1, len(arr)):
