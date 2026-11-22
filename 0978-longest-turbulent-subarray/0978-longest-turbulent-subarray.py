@@ -1,6 +1,5 @@
 class Solution:
     def maxTurbulenceSize(self, arr: list[int]) -> int:
-
         if len(arr) == 1:
             return 1
 
@@ -11,16 +10,18 @@ class Solution:
         
         for i in range(1, len(arr)):
             
+            # no trend set
             if expecting == -2:
                 if arr[i] < arr[i-1]:
                     expecting = 1
-                    cur_count += 1
+                    cur_count = 2
                 elif arr[i] > arr[i-1]:
                     expecting = -1
-                    cur_count += 1
+                    cur_count = 2
                 else:
                     expecting = -2 
                     cur_count = 1
+            # expecting upwards trend
             elif expecting == 1:
                 if arr[i] > arr[i-1]:
                     expecting = -1
@@ -31,6 +32,7 @@ class Solution:
                 else:
                     expecting = -2
                     cur_count = 1
+            # expecting downwards trend
             elif expecting == -1:
                 if arr[i] < arr[i-1]:
                     expecting = 1
