@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/vermaankit2005/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0746-min-cost-climbing-stairs](https://github.com/vermaankit2005/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0918-maximum-sum-circular-subarray](https://github.com/vermaankit2005/Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
+| [0978-longest-turbulent-subarray](https://github.com/vermaankit2005/Leetcode/tree/master/0978-longest-turbulent-subarray) |
 | [1143-longest-common-subsequence](https://github.com/vermaankit2005/Leetcode/tree/master/1143-longest-common-subsequence) |
 ## Memoization
 |  |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/vermaankit2005/Leetcode/tree/master/0704-binary-search) |
 | [0746-min-cost-climbing-stairs](https://github.com/vermaankit2005/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0918-maximum-sum-circular-subarray](https://github.com/vermaankit2005/Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
+| [0978-longest-turbulent-subarray](https://github.com/vermaankit2005/Leetcode/tree/master/0978-longest-turbulent-subarray) |
 | [1046-last-stone-weight](https://github.com/vermaankit2005/Leetcode/tree/master/1046-last-stone-weight) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/vermaankit2005/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1470-shuffle-the-array](https://github.com/vermaankit2005/Leetcode/tree/master/1470-shuffle-the-array) |
@@ -311,4 +313,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0918-maximum-sum-circular-subarray](https://github.com/vermaankit2005/Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
+## Sliding Window
+|  |
+| ------- |
+| [0978-longest-turbulent-subarray](https://github.com/vermaankit2005/Leetcode/tree/master/0978-longest-turbulent-subarray) |
 <!---LeetCode Topics End-->
