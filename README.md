@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/vermaankit2005/Leetcode/tree/master/0518-coin-change-ii) |
 | [0695-max-area-of-island](https://github.com/vermaankit2005/Leetcode/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/vermaankit2005/Leetcode/tree/master/0704-binary-search) |
+| [0724-find-pivot-index](https://github.com/vermaankit2005/Leetcode/tree/master/0724-find-pivot-index) |
 | [0746-min-cost-climbing-stairs](https://github.com/vermaankit2005/Leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0918-maximum-sum-circular-subarray](https://github.com/vermaankit2005/Leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 | [0978-longest-turbulent-subarray](https://github.com/vermaankit2005/Leetcode/tree/master/0978-longest-turbulent-subarray) |
@@ -336,4 +337,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/vermaankit2005/Leetcode/tree/master/0011-container-with-most-water) |
+## Prefix Sum
+|  |
+| ------- |
+| [0724-find-pivot-index](https://github.com/vermaankit2005/Leetcode/tree/master/0724-find-pivot-index) |
 <!---LeetCode Topics End-->
