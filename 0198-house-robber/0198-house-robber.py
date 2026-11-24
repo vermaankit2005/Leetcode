@@ -1,23 +1,21 @@
 class Solution:
     def rob(self, nums: list[int]) -> int:
         mem = {}
-        def dp(i: int) -> int:
+        def dp(n: int):
 
-            max_profit = 0
-            if i < 0:
+            if n >= len(nums):
                 return 0
-            if i in mem:
-                return mem[i]
+            
+            if n in mem:
+                return mem[n]
+            
+            take = nums[n] + dp(n+2)
+            skip = dp(n+1)
 
-            loot_option_1 = nums[i] + dp(i-2)
-            loot_option_2 = dp(i-1)
+            mem[n] = max(take , skip)
+            return mem[n]
 
-            max_profit = max(loot_option_1, loot_option_2)
-            mem[i] = max_profit
-
-            return max_profit
-        
-        return dp(len(nums)-1)
-
+        return dp(0)
+            
 
         
