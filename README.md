@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/vermaankit2005/Leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/vermaankit2005/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/vermaankit2005/Leetcode/tree/master/0133-clone-graph) |
+| [0141-linked-list-cycle](https://github.com/vermaankit2005/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0217-contains-duplicate](https://github.com/vermaankit2005/Leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/vermaankit2005/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/vermaankit2005/Leetcode/tree/master/0242-valid-anagram) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vermaankit2005/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/vermaankit2005/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/vermaankit2005/Leetcode/tree/master/0125-valid-palindrome) |
+| [0141-linked-list-cycle](https://github.com/vermaankit2005/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0647-palindromic-substrings](https://github.com/vermaankit2005/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0876-middle-of-the-linked-list](https://github.com/vermaankit2005/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 ## Simulation
@@ -358,5 +360,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/vermaankit2005/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0876-middle-of-the-linked-list](https://github.com/vermaankit2005/Leetcode/tree/master/0876-middle-of-the-linked-list) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/vermaankit2005/Leetcode/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
