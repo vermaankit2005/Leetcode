@@ -1,22 +1,20 @@
 class Solution:
     def permute(self, nums: list[int]) -> list[list[int]]:
-
         result = []
+        current_state = []
+        mem = {}
+        def dp() -> None: 
 
-        def dfs(i : int, current_state: list[int]):
-            
             if len(current_state) == len(nums):
                 result.append(current_state.copy())
                 return
             
-            for j in nums:
-                if j in current_state:
+            for j in range(len(nums)):
+                if nums[j] in current_state:
                     continue
-                current_state.append(j)
-                dfs(j, current_state)
+                current_state.append(nums[j])
+                dp()
                 current_state.pop()
             
-
-        dfs(0, [])
+        dp()
         return result
-        
