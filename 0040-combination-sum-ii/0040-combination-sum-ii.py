@@ -11,6 +11,12 @@ class Solution:
             
             if i >= len(candidates) or current_sum > target:
                 return
+            
+            j = i
+            # skip
+            while j < len(candidates) -1 and candidates[j] == candidates[j+1]:
+                j += 1
+            dfs(j+1, current_sum)
 
             # Take
             current_sum += candidates[i]
@@ -20,12 +26,6 @@ class Solution:
             
             current_sum -= candidates[i]
             current_state.pop()
-            
-            # skip
-            while i < len(candidates) -1 and candidates[i] == candidates[i+1]:
-                i += 1
-            dfs(i+1, current_sum)
-
         
         dfs(0, 0)
         return result
