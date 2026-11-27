@@ -1,53 +1,31 @@
-def isValid(s: list[str]) -> bool:
-    stack = []
-
-    if len(s) % 2 != 0:
-        return False
-
-    open = {'('}
-
-    for i in range(len(s)):
-        item = s[i]
-
-        if item in open:
-            stack.append(item)
-            continue
-
-        # close case
-        pop_item = ""
-        if stack:
-            pop_item = stack.pop()
-        if item == ')' and pop_item == '(':
-            continue
-        else:
-            return False
-
-    return True if len(stack) == 0 else False
-
-
 class Solution:
     def generateParenthesis(self, n: int) -> list[str]:
         result = []
         final = []
         current_state = []
 
-        def dfs():
+        def dfs(open_count, close_count):
             if len(current_state) == n * 2:
                 result.append(current_state.copy())
                 return
+            
+            if open_count < n:
+                current_state.append("(")
+                open_count += 1
+                dfs(open_count, close_count)
+                current_state.pop()
+                open_count -= 1
 
-            current_state.append("(")
-            dfs()
-            current_state.pop()
+            if close_count < open_count:
+                current_state.append(")")
+                close_count += 1
+                dfs(open_count, close_count)
+                current_state.pop()
+                close_count -= 1
 
-            current_state.append(")")
-            dfs()
-            current_state.pop()
-
-        dfs()
+        dfs(0, 0)
 
         for item in result:
-            if isValid(item):
-                final.append("".join(item))
+            final.append("".join(item))
 
         return final
