@@ -1,12 +1,11 @@
 class Solution:
     def generateParenthesis(self, n: int) -> list[str]:
         result = []
-        final = []
         current_state = []
 
         def dfs(open_count, close_count):
             if len(current_state) == n * 2:
-                result.append(current_state.copy())
+                result.append("".join(current_state))
                 return
             
             if open_count < n:
@@ -25,7 +24,4 @@ class Solution:
 
         dfs(0, 0)
 
-        for item in result:
-            final.append("".join(item))
-
-        return final
+        return result
