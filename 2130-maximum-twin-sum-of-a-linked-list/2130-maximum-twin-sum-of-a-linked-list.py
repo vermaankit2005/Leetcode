@@ -14,15 +14,17 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
         
+        # If slow is at end, meaning only 2 items, return just the sum.
         if slow.next == None:
             return head.val + head.next.val
 
-        temp = slow
+        # Reversing
+        ptr = slow
+        while ptr != None:
+            stack.append(ptr.val)
+            ptr = ptr.next
 
-        while temp != None:
-            stack.append(temp.val)
-            temp = temp.next
-
+        # Calculating max twin
         ptr = head
         while ptr != slow:
             max_len = max(max_len, ptr.val + stack.pop())
