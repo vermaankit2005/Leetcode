@@ -21,12 +21,12 @@ class Solution:
             
             if (i , current_sum) in mem:
                 return mem[(i, current_sum)]
-            
-            if dfs(i+1, current_sum):
-                mem[(i, current_sum)] = True
-                return True
 
             if dfs(i+1, current_sum + nums[i]):
+                mem[(i, current_sum)] = True
+                return True
+            
+            if dfs(i+1, current_sum):
                 mem[(i, current_sum)] = True
                 return True
 
