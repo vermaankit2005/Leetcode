@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/vermaankit2005/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/vermaankit2005/Leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vermaankit2005/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/vermaankit2005/Leetcode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/vermaankit2005/Leetcode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/vermaankit2005/Leetcode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/vermaankit2005/Leetcode/tree/master/0338-counting-bits) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/vermaankit2005/Leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/vermaankit2005/Leetcode/tree/master/0139-word-break) |
 | [0509-fibonacci-number](https://github.com/vermaankit2005/Leetcode/tree/master/0509-fibonacci-number) |
 ## Recursion
 |  |
@@ -109,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/vermaankit2005/Leetcode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vermaankit2005/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/vermaankit2005/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/vermaankit2005/Leetcode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/vermaankit2005/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/vermaankit2005/Leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/vermaankit2005/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
@@ -145,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/vermaankit2005/Leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/vermaankit2005/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/vermaankit2005/Leetcode/tree/master/0133-clone-graph) |
+| [0139-word-break](https://github.com/vermaankit2005/Leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/vermaankit2005/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/vermaankit2005/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0217-contains-duplicate](https://github.com/vermaankit2005/Leetcode/tree/master/0217-contains-duplicate) |
@@ -207,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/vermaankit2005/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/vermaankit2005/Leetcode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/vermaankit2005/Leetcode/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/vermaankit2005/Leetcode/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/vermaankit2005/Leetcode/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/vermaankit2005/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0474-ones-and-zeroes](https://github.com/vermaankit2005/Leetcode/tree/master/0474-ones-and-zeroes) |
@@ -403,4 +408,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/vermaankit2005/Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/vermaankit2005/Leetcode/tree/master/0022-generate-parentheses) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/vermaankit2005/Leetcode/tree/master/0139-word-break) |
+## Brute-Force Search
+|  |
+| ------- |
+| [0139-word-break](https://github.com/vermaankit2005/Leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
