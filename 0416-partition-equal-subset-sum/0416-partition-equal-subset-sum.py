@@ -22,8 +22,16 @@ class Solution:
             if (i , current_sum) in mem:
                 return mem[(i, current_sum)]
             
-            mem[(i, current_sum)] = dfs(i+1, current_sum + nums[i]) or dfs(i+1, current_sum)
-            return mem[(i, current_sum)]
+            if dfs(i+1, current_sum):
+                mem[(i, current_sum)] = True
+                return True
+
+            if dfs(i+1, current_sum + nums[i]):
+                mem[(i, current_sum)] = True
+                return True
+
+            mem[(i, current_sum)] = False
+            return False
         
         return dfs(0, 0)
 
