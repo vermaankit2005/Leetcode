@@ -1,6 +1,7 @@
 class Solution:
     def wordBreak(self, s: str, wordDict: list[str]) -> bool:
         mem = {}
+        wordSet = set(wordDict)
         def dfs(i: int):
             if i == len(s):
                 return True
@@ -11,9 +12,8 @@ class Solution:
             for j in range(i, len(s)):
                 substr = s[i: j+1]
 
-                if substr not in wordDict:
+                if substr not in wordSet:
                     continue
-                
                 
                 if dfs(j+1):
                     mem[i] = True
