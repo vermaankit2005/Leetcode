@@ -1,29 +1,30 @@
 class Solution:
     def canPartition(self, nums: list[int]) -> bool:
         
-        summ = sum(nums)
+        total = 0
+        for item in nums:
+            total += item
         
-        if summ % 2 != 0:
+        if total % 2 != 0:
             return False
         
-        target = summ // 2
+        target = total // 2
+        mem = {}
+        # True if can partition else False
+        def dfs(i, current_sum) -> bool:
 
-        mem = [[None] * target for _ in range(len(nums))]
-
-        def dfs(i: int, total: int):
-            if total > target:
-                return False
-            if total == target:
+            if current_sum == target:
                 return True
-            if i >= len(nums):
+             
+            if i >= len(nums) or current_sum > target:
                 return False
-            if mem[i][total] is not None:
-                return mem[i][total]
             
-            mem[i][total] = dfs(i+1, total + nums[i]) or dfs(i+1, total)
-            return mem[i][total]
+            if (i , current_sum) in mem:
+                return mem[(i, current_sum)]
+            
+            mem[(i, current_sum)] = dfs(i+1, current_sum + nums[i]) or dfs(i+1, current_sum)
+            return mem[(i, current_sum)]
         
         return dfs(0, 0)
-
 
         
